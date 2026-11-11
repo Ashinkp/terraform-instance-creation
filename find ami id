@@ -1,0 +1,7 @@
+to find AMI ID of an instance:-
+
+aws- linux :-   
+aws ssm get-parameters --names /aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64 --region us-east-1
+
+aws-ubuntu:-
+aws ssm get-parameters --names /aws/service/canonical/ubuntu/server/24.04/stable/current/amd64/hvm/ebs-gp3/ami-id --region us-east-1
